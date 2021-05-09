@@ -1,0 +1,24 @@
+service zygote /system/bin/app_process -Xzygote /system/bin --zygote --start-system-server
+    class main
+    priority -20
+    user root
+    group root readproc reserved_disk
+    socket zygote stream 660 root system
+    onrestart write /sys/android_power/request_state wake
+    onrestart write /sys/power/state on
+    onrestart restart audioserver
+    onrestart restart cameraserver
+    onrestart restart media
+    onrestart restart netd
+    onrestart restart wificond
+    onrestart restart vendor.sensors-hal-1-0
+    onrestart restart vendor.servicetracker-1-0
+#ifdef VENDOR_EDIT
+#Bo.Xiang@PSW.BSP.SENSOR,2019/07/16,Modify for bug 2161959
+    onrestart restart vendor.sensors-hal-1-0
+#endif /* VENDOR_EDIT */
+    writepid /dev/cpuset/foreground/tasks
+#ifdef VENDOR_EDIT
+#Jianhua.Sun@PSW.AD.Charge.QuickBoot.1129994, 2016/06/06, Modify for quickboot
+    disabled
+#endif /* VENDOR_EDIT */

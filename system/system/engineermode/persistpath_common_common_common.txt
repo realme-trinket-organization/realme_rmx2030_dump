@@ -1,0 +1,13 @@
+data/app/OneKeyLockScreen
+data/app/ColorScreenRecorder
+data/app/GameSpaceUI
+data/app/com.google.android.apps.docs-9
+data/app/com.google.android.apps.photos-9
+data/app/com.google.android.apps.tachyon-9
+data/app/com.google.android.videos-9
+data/app/com.google.android.apps.magazines
+data/app/SoftsimRedteaRoaming
+data/app/ColorFileStand
+data/app/OppoCompass2
+data/app/OppoWeather2
+data/app/Calculator2

@@ -1,0 +1,5 @@
+data/app/com.agoda.mobile.consumer
+data/app/com.lazada.android
+data/app/com.qidian.Int.reader
+data/app/ctrip.english
+data/app/com.mobisystems.office

@@ -1,0 +1,2 @@
+com.simeji.android.oppo
+ctrip.english

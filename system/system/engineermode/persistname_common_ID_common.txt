@@ -1,0 +1,8 @@
+com.opera.branding.news
+com.opera.app.news
+com.agoda.mobile.consumer
+com.lazada.android
+com.qidian.Int.reader
+com.jakarta.baca.lite
+com.msd.JTClient
+com.realmecomm.app

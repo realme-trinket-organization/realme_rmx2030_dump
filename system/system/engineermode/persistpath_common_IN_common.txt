@@ -1,0 +1,9 @@
+data/app/com.opera.branding.news
+data/app/com.opera.app.news
+data/app/in.amazon.mShop.android.shopping
+data/app/com.gaana
+data/app/com.eterno
+data/app/com.UCMobile.intl
+data/app/app.buzz.share
+data/app/com.realmecomm.app
+data/app/com.realmestore.app

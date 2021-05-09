@@ -1,0 +1,28 @@
+<filter-conf>
+    <version>20191206</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_high_temp_protect</filter-name>
+    <HighTemperatureProtectSwitch>true</HighTemperatureProtectSwitch>
+    <HighTemperatureShutdownSwitch>true</HighTemperatureShutdownSwitch>
+    <HighTemperatureFirstStepSwitch>true</HighTemperatureFirstStepSwitch>
+    <CountBatteryChangedForFosUpdateTime>30</CountBatteryChangedForFosUpdateTime>
+    <HighTemperatureShutdownUpdateTime>15</HighTemperatureShutdownUpdateTime>
+    <HighTemperatureProtectFirstStepIn>490</HighTemperatureProtectFirstStepIn>
+    <HighTemperatureProtectFirstStepOut>470</HighTemperatureProtectFirstStepOut>
+    <HighTemperatureProtectThresholdIn>600</HighTemperatureProtectThresholdIn>
+    <HighTemperatureProtectThresholdOut>580</HighTemperatureProtectThresholdOut>
+    <HighTemperatureProtectShutDown>750</HighTemperatureProtectShutDown>
+    <MediumTemperatureProtectThreshold>10000</MediumTemperatureProtectThreshold>
+	<!-- 普通场景禁用闪光灯温度阈值 -->
+	<camera_temperature_limit>460</camera_temperature_limit>
+	<!-- 充电或打开热点场景，禁用闪光灯温度阈值 -->
+	<camera_temperature_charge>460</camera_temperature_charge>
+	<!-- 退出相机阈值 -->
+	<camera_temperature_limit_finish>490</camera_temperature_limit_finish>
+	<!-- 4k@60fps场景下，打开高温强制停止录像功能：true/false -->
+	<camera_temperature_limit_video_record_switch>false</camera_temperature_limit_video_record_switch>
+	<!-- 4k@60fps场景下，高温强制停止录像触发阈值 -->
+	<camera_temperature_limit_disable_video_record>490</camera_temperature_limit_disable_video_record>
+	<!-- 4k@60fps场景下，高温强制停止录像恢复阈值 -->
+	<camera_temperature_limit_enable_video_record>470</camera_temperature_limit_enable_video_record>
+</filter-conf>

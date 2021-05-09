@@ -1,0 +1,2 @@
+com.haochang.party
+com.mobisystems.office
